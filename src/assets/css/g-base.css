@@ -1,0 +1,140 @@
+/* reset declare */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+table,
+td,
+th,
+caption,
+form,
+button,
+input,
+select,
+textarea,
+fieldset,
+legend,
+blockquote,
+iframe,
+address {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+html {
+    _background: url(about:blank);
+}
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    font: 12px/1.5 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+    color: #444;
+}
+
+img,
+fieldset {
+    border: 0;
+}
+
+iframe {
+    display: block;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+em,
+i,
+dfn,
+cite,
+address {
+    font-style: normal;
+}
+
+hr {
+    height: 0;
+    overflow: hidden;
+    border: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+font {
+    font-size: 100%;
+}
+
+q:after,
+q:before {
+    content: '';
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input[type=radio],
+input[type=checkbox] {
+    vertical-align: middle;
+}
+
+select {
+    height: 23px;
+    line-height: 23px;
+    padding: 3px;
+    vertical-align: middle;
+}
+
+a {
+    color: #444;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f60;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+input,
+button,
+textarea,
+select {
+    font-family: inherit;
+    font-size: 100%;
+}
+
+textarea {
+    resize: none;
+}
+
+legend {
+    *margin: 0 -7px;
+}
